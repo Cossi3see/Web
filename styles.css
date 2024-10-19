@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('cossibackground.jpg') no-repeat center center fixed;
+    background: url('cossibackground1.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     text-align: center;
@@ -9,12 +9,12 @@ body {
 
 header {
     background-color: transparent;
-    color: blue;
+    color: green;
     padding: 10px;
 }
 
 h1, h2 {
-    margin: 10px 0;
+    margin: 10px ;
 }
 
 .clock-calendar {
@@ -24,13 +24,14 @@ h1, h2 {
 }
 
 #clock, #calendar {
-    background-color: skyblue;
+    background-color: green;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-.social-links {
+.social-links h2 {
+        color: green;
     margin-top: 30px;
 }
 
@@ -38,7 +39,7 @@ h1, h2 {
     display: inline-block;
     padding: 10px 15px;
     margin: 5px;
-    background-color: #007bff;
+    background-color: green;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -46,15 +47,4 @@ h1, h2 {
 
 .links a:hover {
     background-color: #0056b3;
-}
-
-.pong-game {
-    margin-top: 30px;
-}
-
-#pongCanvas {
-    border: 2px solid #333;
-    background-color: black;
-    display: block;
-    margin: 0 auto;
 }
