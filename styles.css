@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 .search-bar button:hover {
-    background-color: #0056b3;
+    background-color: green;
 }
 
 .clock-calendar {
