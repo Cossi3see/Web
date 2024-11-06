@@ -1,3 +1,13 @@
+function performSearch() {
+    const query = document.getElementById("searchInput").value;
+    if (query) {
+        alert("Searching for: " + query);
+        // Add your search functionality here
+    } else {
+        alert("Please enter a search term.");
+    }
+}
+
 // Clock Function
 function updateClock() {
     const now = new Date();
