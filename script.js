@@ -1,6 +1,8 @@
 function performSearch() {
     const query = document.getElementById("searchInput").value;
     if (query) {
+        const googleSearchUrl = "https://www.google.com/search?q+" + encodeURIComponent(query);
+        window.open(googleSearchUrl, "_blank");
         alert("Searching for: " + query);
         // Add your search functionality here
     } else {
