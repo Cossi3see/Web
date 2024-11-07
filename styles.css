@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 .search-bar button:hover {
-    background-color: green;
+    background-color: lime green;
 }
 
 .clock-calendar {
@@ -71,5 +71,5 @@ h1, h2 {
 }
 
 .links a:hover {
-    background-color: green;
+    background-color: lime green;
 }
