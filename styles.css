@@ -56,7 +56,7 @@ h1, h2 {
 }
 
 .social-links h2 {
-        color: green;
+        color: white;
     margin-top: 30px;
 }
 
@@ -71,5 +71,5 @@ h1, h2 {
 }
 
 .links a:hover {
-    background-color: #0056b3;
+    background-color: green;
 }
