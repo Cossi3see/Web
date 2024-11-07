@@ -1,9 +1,8 @@
 function performSearch() {
-    const query = document.getElementById("searchInput").value;
+    const query = document.getElementById("searchInput").value.trim(); // Trim any extra spaces
     if (query) {
-        const googleSearchUrl = "https://www.google.com/search?q+" + encodeURIComponent(query); window.open(googleSearchUrl, "_blank");
-        alert("Searching for: " + query);
-        // Add your search functionality here
+        const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        window.open(googleSearchUrl, "_blank"); // Opens search results in a new tab
     } else {
         alert("Please enter a search term.");
     }
