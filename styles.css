@@ -44,10 +44,12 @@ h1, h2 {
 
 .clock-calendar {
     color: white;
-    display: absolute;
+    display: flex;
+    flex-direction: column;
     justify-content: centre;
     align-items: centre;
     margin: 20px 0;
+    height: 100vh;
 }
 
 #clock, #calendar {
