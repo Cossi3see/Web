@@ -43,6 +43,7 @@ h1, h2 {
 }
 
 .clock-calendar {
+    color: white
     display: flex;
     justify-content: centre;
     align-items: centre
