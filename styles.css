@@ -45,6 +45,7 @@ h1, h2 {
 .clock-calendar {
     display: flex;
     justify-content: centre;
+    align-items: centre
     margin: 20px 0;
 }
 
