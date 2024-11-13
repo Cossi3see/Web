@@ -43,10 +43,10 @@ h1, h2 {
 }
 
 .clock-calendar {
-    color: white
+    color: white;
     display: flex;
     justify-content: centre;
-    align-items: centre
+    align-items: centre;
     margin: 20px 0;
 }
 
@@ -55,6 +55,8 @@ h1, h2 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    margin: 10px 0;
+
 }
 
 .game h2 {
