@@ -23,7 +23,7 @@ h1, h2 {
 
 .search-bar input[type="text"] {
     padding: 8px;
-    width: 200px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -44,7 +44,7 @@ h1, h2 {
 
 .clock-calendar {
     display: flex;
-    justify-content: space-around;
+    justify-content: centre;
     margin: 20px 0;
 }
 
